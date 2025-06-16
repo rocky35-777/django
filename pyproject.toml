@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django"
+version = "0.1.0"
+description = "python django project"
+authors = ["rocky35-777 <parksei27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selenium = "^4.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
